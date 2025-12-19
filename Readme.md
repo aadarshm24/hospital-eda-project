@@ -22,17 +22,15 @@ Build an EDA system for hospital patient records with the following requirements
 - Create visualizations for department workload analysis
 - Generate statistical summaries
 
-**Challenge:** The dataset didn't include department information - only medical conditions. I had to create a mapping system to assign patients to appropriate departments.
-
 ## 🗂️ Dataset
 
 - **Source:** Kaggle
-- **File:** `hospital data analysis.csv`
+- **File:** `hospital_data_analysis.csv`
 - **Features:** Patient info, Medical Condition, Treatment Cost, Length of Stay
 
 ## 🛠️ Tech Stack
 
-- **Python 3.x**
+- **Python 3.14**
 - **Pandas** - Data manipulation and cleaning
 - **NumPy** - Numerical operations
 - **Matplotlib** - Data visualization
@@ -42,7 +40,7 @@ Build an EDA system for hospital patient records with the following requirements
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/hospital-eda-project.git
+git clone https://github.com/aadarshm24/Hospital_Patient_Data_EDA_System.git
 
 # Navigate to project directory
 cd hospital-eda-project
