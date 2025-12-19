@@ -30,7 +30,7 @@ Build an EDA system for hospital patient records with the following requirements
 
 ## 🛠️ Tech Stack
 
-- **Python 3.14**
+- **Python 3.14.0**
 - **Pandas** - Data manipulation and cleaning
 - **NumPy** - Numerical operations
 - **Matplotlib** - Data visualization
@@ -61,7 +61,6 @@ pip install pandas numpy matplotlib seaborn
   - Cardiology (Heart Disease, Heart Attack, Hypertension)
   - Orthopedics (Fractures, Osteoarthritis)
   - Oncology (Cancer types)
-  - And more...
 
 ### 3. Visualizations
 - **Pie Chart:** Department-wise patient load distribution
@@ -69,13 +68,7 @@ pip install pandas numpy matplotlib seaborn
 - **Bar Chart:** Average treatment costs by department
 
 ## 💻 Usage
-
-```python
-# Run the main script
-python hospital_eda.py
-```
-
-Or execute cells in Jupyter Notebook:
+ execute cells in Jupyter Notebook:
 ```bash
 jupyter notebook hospital_analysis.ipynb
 ```
@@ -111,10 +104,10 @@ df['Department'] = df['Condition'].map(condition_to_dept)
 ```
 hospital-eda-project/
 │
-├── hospital data analysis.csv    # Dataset
-├── hospital_eda.py               # Main Python script
-├── README.md                     # This file
-└── requirements.txt              # Dependencies
+├── hospital_data_analysis.csv           # Dataset
+├── Hospital_Patient_Data_EDA.ipynb      # Main Python script
+├── README.md                            # This file
+└── requirements.txt                     # Dependencies
 ```
 
 ## 🎓 What I Learned
@@ -124,34 +117,6 @@ hospital-eda-project/
 - Domain knowledge (healthcare) is important for data science
 - Choosing the right visualization type matters
 - Pandas groupby and mapping functions are powerful
-
-## 🐛 Known Issues
-
-- Some conditions might not have department mappings (handled as null)
-- Dataset is limited to specific conditions only
-- Costs might vary based on hospital location (not normalized)
-
-## 🔮 Future Improvements
-
-- [ ] Add more medical conditions to the mapping
-- [ ] Include geographic analysis (if location data available)
-- [ ] Implement interactive dashboards using Plotly
-- [ ] Add time-series analysis for admission trends
-- [ ] Create automated report generation
-
-## 📝 License
-
-This project is created for educational purposes as part of college coursework.
-
-## 🤝 Contributing
-
-This is a student project, but suggestions are welcome! Feel free to open an issue or submit a pull request.
-
-## 📧 Contact
-
-**Aadarsh Mishra**  
-ERP ID: 6605983  
-Class Serial: 07
 
 ---
 
