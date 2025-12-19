@@ -80,24 +80,6 @@ jupyter notebook hospital_analysis.ipynb
 - Emergency department has shortest patient stays
 - Maternity and Oncology show longer hospitalization periods
 
-## 🔍 Code Snippets
-
-**Data Cleaning:**
-```python
-df = df[(df['Cost'] >= 0) & (df['Length_of_Stay'] >= 0)]
-df.drop_duplicates(inplace=True)
-```
-
-**Department Mapping:**
-```python
-condition_to_dept = {
-    'Heart Attack': 'Cardiology',
-    'Fractured Arm': 'Orthopedics',
-    'Cancer': 'Oncology',
-    # ... more mappings
-}
-df['Department'] = df['Condition'].map(condition_to_dept)
-```
 
 ## 📁 Project Structure
 
